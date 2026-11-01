@@ -1,1 +1,37 @@
-# Contains the applications saved student records
+[
+  {
+    "student_id": "2026-0001",
+    "full_name": "Ana Santos",
+    "program": "BSAI",
+    "year_level": 1,
+    "email": "ana@example.com"
+  },
+  {
+    "student_id": "2026-0002",
+    "full_name": "Marco Reyes",
+    "program": "BSIT",
+    "year_level": 2,
+    "email": "marco@example.com"
+  },
+  {
+    "student_id": "2026-0003",
+    "full_name": "Leah Cruz",
+    "program": "BSIT",
+    "year_level": 1,
+    "email": "leah@example.com"
+  },
+  {
+    "student_id": "2026-0004",
+    "full_name": "Daniel Lim",
+    "program": "BSAI",
+    "year_level": 3,
+    "email": "daniel@example.com"
+  },
+  {
+    "student_id": "2026-0005",
+    "full_name": "Sofia Garcia",
+    "program": "BSIT",
+    "year_level": 4,
+    "email": "sofia@example.com"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "student_id": "2026-0001",
+    "full_name": "Ana Santos",
+    "program": "BSAI",
+    "year_level": 1,
+    "email": "ana@example.com"
+  },
+  {
+    "student_id": "2026-0002",
+    "full_name": "Marco Reyes",
+PWNED
+  },
+  {
+    "student_id": "2026-0003",
+CORRUPTED
+  },
+  {
+BOOM
+    "program": "BSAI",
+    "year_level": 3,
+    "email": "daniel@example.com"
+  },
+  {
+    "student_id": "2026-0005",
+    "full_name": "Sofia Garcia",
+    "program": "BSIT",
+    "year_level": 4,
+    "email": "sofia@example.com"
+  }
+]

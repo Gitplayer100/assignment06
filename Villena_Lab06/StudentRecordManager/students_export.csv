@@ -1,1 +1,6 @@
-# This contains output of export
+student_id,full_name,program,year_level,email
+2026-0001,Ana Santos,BSAI,1,ana@example.com
+2026-0002,Marco Reyes,BSIT,2,marco@example.com
+2026-0003,Leah Cruz,BSIT,1,leah@example.com
+2026-0004,Daniel Lim,BSAI,3,daniel@example.com
+2026-0005,Sofia Garcia,BSIT,4,sofia@example.com

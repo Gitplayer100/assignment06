@@ -4,16 +4,31 @@ class Student:
     def __init__(self, student_id: str, full_name: str, program: str, year_level: int, email: str):
         if not isinstance(student_id, str):
             raise TypeError(f"student_id must be str like 2026-001. Error: {type(student_id).__name__}")
+        if not student_id.strip():
+            raise ValueError("Student ID cannot be empty.")
+        
         if not isinstance(full_name, str):
-            raise TypeError(f"full_name must be str like Kristoff Miguel A. Villena. Error: {type(full_name).__name__}")
+            raise TypeError(f"full_name must be str like Kristoff Miguelito A. Vanila. Error: {type(full_name).__name__}")
+        if not full_name.strip():
+            raise ValueError("Full Name cannot be empty.")
+        
         if not isinstance(program, str):
             raise TypeError(f"program must be str like BSIT or BSAI. Error: {type(program).__name__}")
+        if not program.strip():
+            raise ValueError("Program cannot be empty.")
+        
         if not isinstance(year_level, int) or isinstance(year_level, bool):
             raise TypeError(f"year_level must be int only from 1 to 4. Error: {type(year_level).__name__}")
         if not (1 <= year_level <= 4):
             raise ValueError(f"year_level must be between 1 and 4. Error: {year_level}")
+
         if not isinstance(email, str):
-            raise TypeError(f"email must be str like kristoffmiguel.villena@uap.asia. Error: {type(email).__name__}")
+            raise TypeError(f"email must be str like kristoffmiguelito.vanila@example.com. Error: {type(email).__name__}")
+        if not email.strip():
+            raise ValueError("Email cannot be empty.")
+        if "@" not in email or "." not in email:
+            raise ValueError("Email must contain '@' and '.' (e.g., kristoffmiguelito.vanila@example.com).")
+        
         self.student_id = student_id
         self.full_name = full_name
         self.program = program
