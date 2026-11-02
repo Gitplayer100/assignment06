@@ -104,7 +104,7 @@ https://docs.google.com/document/d/11j3iLVB9Ft9EPTy2cGyR-_GuvBBxd3QvhJNffNmLdXI/
 
 ---
 
-## 8. Limitations / Unfinised Features
+## 8. Limitations / Unfinished Features
 - Data is locally stored (but shouldn't be too much of an issue)
 - Search is a bit limited (it requires you to input the ID only which could be tedious and hard to remember by)
 - I did not get to add any role based access (therefore whoeveer owns the terminal has full privelege which is a big issue)
@@ -121,7 +121,7 @@ for the main menu.
 
 The Main Menu i wanted was just a cleaner version because everytime I enter an option, the previous log/text are still in the terminal so i wanted to get rid of that eyesore
 (Hence it gave me the idea to import OS and had to redo every single print into a message so that was the newmain.py) and then a filepath issue started to happen so i had to
-rely on AI that was locally in my device to try and fis the filepath issue so that it can properly update the students.json file
+rely on AI that was locally in my device to try and fix the filepath issue so that it can properly update the students.json file
 
 I used Antigravity CLI (Gemini Model) to fix this filepath issue and I was done with the project. I also used Claude to organize the Test Cases that I have done for this
 project (but it was not used in any of the code)
